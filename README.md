@@ -1,1 +1,1 @@
-# Ejercicios programación competitiva 💻
+# Ejercicios programación competitiva 
