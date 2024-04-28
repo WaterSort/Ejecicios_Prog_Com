@@ -1,9 +1,13 @@
+#LINK DEL EJERCICIO
+#https://codeforces.com/contest/1966/problem/A
+#
+#
 num = int(input())
 #Este for determina la cantidad de casos
 for _ in range(num):
 #Aqui se usa el map para tener los dos numeros como int sin tener que usar for, lo mismo en la linea 6
-n,k = (map(int,input().split()))
-lis = list(map(int,input().split()))
+    n, k = (map(int,input().split()))
+    lis = list(map(int,input().split()))
 #Se crea un diccionario para comprobar cuantas veces se repite cada numero dentro de la lis
 dic = {}
 for nu in lis:
